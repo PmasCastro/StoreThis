@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StoreThis"
         tools:targetApi="31">
+
+        <!-- launcher activity -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">
@@ -21,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- other activities -->
     </application>
 
 </manifest>
